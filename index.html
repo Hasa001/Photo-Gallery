@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Photo Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <video autoplay loop muted plays-inline class="bg-vid">
+        <source src="V1.mp4" type="video/mp4" />
+      </video>
+      <h1 class="page-title">PHOTO GALLERY</h1>
+    </header>
+    <main class="main">
+      <section class="section">
+        <figure class="image-container">
+          <img src="images/forest road.jpg" alt="" />
+        </figure>
+        <h2 class="section-title">Cars</h2>
+        <pictures class="content">
+          <span>
+            <img src="images/car2.jpg" alt="" />
+          </span>
+          <span>
+            <img src="images/lamborghini.jpg" alt="" />
+          </span>
+          <span>
+            <img src="images/toyota.jpg" alt="" />
+          </span>
+          <span>
+            <img src="images/RR2.jpg" alt="" />
+          </span>
+          <span>
+            <img src="images/RR.jpg" alt="" />
+          </span>
+          <span> <img src="images/car1.jpg" alt="" /></span>
+        </pictures>
+      </section>
+      <section class="section">
+        <figure class="image-container">
+          <img src="images/dog bg 2.jpg" alt="" />
+        </figure>
+        <h2 class="section-title">Dogs</h2>
+        <pictures class="content">
+          <span>
+            <img src="images/dog1.jpg" alt="" />
+          </span>
+          <span>
+            <img src="images/dog2.jpg" alt="" />
+          </span>
+          <span>
+            <img src="images/dog3.jpg" alt="" />
+          </span>
+          <span>
+            <img src="images/dog4.jpg" alt="" />
+          </span>
+          <span>
+            <img src="images/dog7.jpg" alt="" />
+          </span>
+          <span>
+            <img src="images/dog6.jpg" alt="" />
+          </span>
+        </pictures>
+      </section>
+      <section class="section">
+        <figure class="image-container">
+          <img src="images/house bg2.jpg" alt="" />
+        </figure>
+        <h2 class="section-title">Mansions</h2>
+        <pictures class="content">
+          <span>
+            <img src="images/house1.jpg" alt="" />
+          </span>
+          <span>
+            <img src="images/house10.jpg" alt="" />
+          </span>
+          <span>
+            <img src="images/house9.jpg" alt="" />
+          </span>
+          <span>
+            <img src="images/house4.jpg" alt="" />
+          </span>
+          <span>
+            <img src="images/house5.jpg" alt="" />
+          </span>
+          <span>
+            <img src="images/house6.jpg" alt="" />
+          </span>
+        </pictures>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="contact">
+        <form class="decor">
+          <!-- <div class="form-inner"> -->
+          <h1>Contact us</h1>
+          <input id="name" type="text" placeholder="Full Name" required />
+          <input id="email" type="email" placeholder="Email" required />
+          <textarea id="message" placeholder="" rows="6" required></textarea>
+          <button class="button" type="submit" href="/">Send</button>
+        </form>
+      </div>
+    </footer>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("-0pF1xwApQPWNmCcw");
+      })();
+    </script>
+    <script src="app.js"></script>
+  </body>
+</html>
