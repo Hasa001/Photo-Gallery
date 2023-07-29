@@ -180,15 +180,20 @@ body {
   display: flex;
   min-height: 0;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  font-size:1.8rem;
+  /* font-size: 1.8rem; */
+  text-align: center;
+}
+.decor h1 {
+  font-size: 1.8rem;
 }
 input,
 textarea {
   position: relative;
   outline: none;
   width: 50vw;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   border-radius: 30px;
   padding: 5px;
   margin: 4%;
@@ -196,9 +201,9 @@ textarea {
 }
 .button {
   font-family: var(--font-heading);
-  width: 40vw;
+  width: 30vw;
   margin: 10%;
-  font-size: 2rem;
+  font-size: 1.4rem;
   padding: 3px 0;
   color: #fdf9f9;
   background-color: #1f1f1f;
