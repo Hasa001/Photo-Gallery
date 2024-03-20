@@ -64,8 +64,8 @@ function send() {
     message: document.querySelector("#message").value,
   };
 
-  const serviceID = "service_rbou5ji";
-  const tempID = "template_x6jbm3f";
+  const serviceID = "service_zqj7cp8";
+  const tempID = "template_lmuyngf";
 
   emailjs
     .send(serviceID, tempID, para)
